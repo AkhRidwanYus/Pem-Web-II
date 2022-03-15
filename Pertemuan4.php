@@ -11,13 +11,13 @@
 		case $nilai >=80:
 			echo "A";
 			break;
-		case range(70, 79):
+		case $nilai >= 70 && $nilai <= 79:
 			echo "B";
 			break;
-		case range(60, 69):
+		case $nilai >= 60 && $nilai <= 69:
 			echo "C";
 			break;
-		case range(50, 59):
+		case $nilai >= 50 && $nilai <= 59:
 			echo "D";
 			break;
 		default:
